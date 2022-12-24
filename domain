@@ -4,7 +4,7 @@
 ! Title: STFU DNS
 ! Description: Blocks ads, promotions and trackers in Korean website. Aggressive annoyance filtering rule included.
 ! Expires: 300 days
-! Version: 4.1
+! Version: 4.2
 
 ||ace.naver.com^
 ||wcs.naver.com^
@@ -17,6 +17,8 @@
 ||veta.naver.com^
 ||inspector-collector.m.naver.com^
 ||ntracker-collector.naver.com^
+||nelo2-col.navercorp.com^
+||nelo2-col.linecorp.com^
 ||ad-exchange.toast.com^
 ||adlc-exchange.toast.com^
 ||talkchannel-log.kakao.com^
@@ -39,9 +41,12 @@
 ||pagead2.googlesyndication.com^
 ||partner.googleadservices.com^
 ||www-google-analytics.l.google.com^
+||appsflyer.com^
 ||adpick.co.kr^
+||adpopcorn.com^
 ||cauly.co.kr^
 ||cauly.net^
+||buzzvil.com^
 ||taboola.com^
 ||adinsight.co.kr^
 ||adinsight.com^
@@ -57,5 +62,10 @@
 ||api.glb.samsung-gamelauncher.com^
 ||sentry.io^
 ||sentry-cdn.com^
+||crashlytics.com^
+||crashlyticsreports-pa.googleapis.com^
+||bugsnag.com^
+||app-measurement.com^
+||cc-api-data.adobe.io^
 
 !========== END OF DOMAIN RULE ==========
