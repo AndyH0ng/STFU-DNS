@@ -4,7 +4,7 @@
 ! Title: STFU DNS
 ! Description: Blocks ads, promotions and trackers in Korean website. Aggressive annoyance filtering rule included.
 ! Expires: 300 days
-! Version: 4
+! Version: 4.1
 
 ||ace.naver.com^
 ||wcs.naver.com^
@@ -27,37 +27,35 @@
 ||track.tiara.daum.net^
 ||ad.daum.net^
 ||doubleclick.net^
+||googleoptimize.com^
+||googletagmanager.com^
+||google-analytics.com^
+||googleadservices.com^
 ||adservice.google.co.kr^
 ||adservice.google.com^
 ||adservice.google.com.tw^
 ||adservice.google.tw^
-||google-analytics.com^
 ||pagead2.googleadservices.com^
 ||pagead2.googlesyndication.com^
 ||partner.googleadservices.com^
-||cauly.net^
+||www-google-analytics.l.google.com^
+||adpick.co.kr^
 ||cauly.co.kr^
+||cauly.net^
 ||taboola.com^
+||adinsight.co.kr^
+||adinsight.com^
 ||gwx.adlibr.com^
+||megadata.co.kr^
 ||widerplanet.com^
 ||sas.techhub.co.kr^
 ||fin.rainbownine.net^
-||s.pstatic.net/dthumb.phinf/
-||s.pstatic.net/shopping.phinf/
-||img.mimacstudy.com/admin_sh/images/site/skyBanner^
-||img.mimacstudy.com/admin_sh/images/site/mainPopup^
-||img.samsungmembers.com/default/banner^
-||img.samsungapps.com/promotion^
-||img.samsungapps.com/productNew^
-||kr-cdn-gpp.mcsvc.samsung.com^
 ||kr-api.mcsvc.samsung.com^
+||kr-cdn-gpp.mcsvc.samsung.com^
 ||adconsent.samsungrs.com^
 ||analytics.samsungknox.com^
-||api.glb.samsung-gamelauncher.com^ 
-
-! Use system font instead of Tahoma in Dcinside
-||fonts.gstatic.com^$domain=dcinside.com
-
-
+||api.glb.samsung-gamelauncher.com^
+||sentry.io^
+||sentry-cdn.com^
 
 !========== END OF DOMAIN RULE ==========
